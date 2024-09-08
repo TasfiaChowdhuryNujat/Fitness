@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick an exercise!"
+        android:textSize="24sp"
+        android:padding="20dp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnPickExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Exercise" />
+
+    <Button
+        android:id="@+id/btnMoreDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Details"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
